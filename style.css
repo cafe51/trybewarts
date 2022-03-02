@@ -2,6 +2,8 @@
 
 body {
   background-color: rgb(228, 228, 228);
+  font-family: sans-serif;
+  font-weight: 550;
 }
 
 .header {
@@ -23,9 +25,10 @@ body {
 }
 
 .button.is-link {
-  background-color: purple;
+  background-color: rgb(55, 0, 128);
   border-color: transparent;
   color: white;
+  border-radius: 5px;
   margin-left: 5px;
 }
 
@@ -86,21 +89,28 @@ hr {
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
+  gap: 10px;
 }
 
 #content {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
+  gap: 10px;
 }
 
 .subject {
   margin-bottom: 10px;
-
 }
 
 #family-content {
   display: flex;
+}
+
+#rate {
+  align-self: flex-start;
+  display: flex;
+  gap: 3px;
 }
 
 .textarea {
@@ -127,7 +137,8 @@ hr {
 #textarea {
   width: 500px;
   height: 100px;
-
+  border-radius: 5px;
+  border-color: rgb(55, 0, 128);
 }
 
 #areatexto {
@@ -147,6 +158,13 @@ hr {
   border-radius: 10px;
   width: 500px;
   padding: 5px;
+  align-self: flex-start;
+}
+
+#submit-btn:hover {
+  background-color: darkmagenta;
+  border-color: transparent;
+  color: white;
 }
 
 footer {

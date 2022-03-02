@@ -72,18 +72,19 @@
 
 hr {
   width: 100%;
-  background-color: black;
+  background-color: rgb(70, 70, 70);
 
 }
 
 #family {
   display: flex;
-  flex-direction: column;
+  flex-flow: row-reverse wrap;
+
 }
 
 #content {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 
 #family-content {

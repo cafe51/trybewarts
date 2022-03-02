@@ -78,13 +78,15 @@ hr {
 
 #family {
   display: flex;
-  flex-flow: row-reverse wrap;
-
+  flex-flow: column nowrap;
+  /* justify-content: space-between; */
+  align-content: space-between;
+  width: 100%;
 }
 
 #content {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 
 #family-content {

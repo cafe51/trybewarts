@@ -79,14 +79,14 @@ hr {
 #family {
   display: flex;
   flex-flow: column nowrap;
-  /* justify-content: space-between; */
-  align-content: space-between;
   width: 100%;
 }
 
 #content {
   display: flex;
   flex-flow: row wrap;
+  width: 100%;
+
 }
 
 #family-content {

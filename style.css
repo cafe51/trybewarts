@@ -1,5 +1,9 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css';
 
+body {
+  background-color: rgb(228, 228, 228);
+}
+
 .header {
   display: flex;
   background-color : rgb(50, 167, 145);
@@ -55,6 +59,7 @@
 
 #trybewarts-forms-logo {
   height: 500px;
+  align-self: center;
 }
 
 #name-lastname {
@@ -72,7 +77,8 @@
 
 hr {
   width: 100%;
-  background-color: rgb(70, 70, 70);
+  height: 1px;
+  background-color: rgb(133, 132, 132);
 
 }
 
@@ -86,6 +92,10 @@ hr {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
+}
+
+.subject {
+  margin-bottom: 10px;
 
 }
 
@@ -112,4 +122,36 @@ hr {
 .textarea:not( [ rows ] ) {
   max-height: unset;
   min-height: unset;
+}
+
+#textarea {
+  width: 500px;
+  height: 100px;
+
+}
+
+#areatexto {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+#termosdeuso {
+  align-self: flex-start;
+}
+
+#submit-btn {
+  background-color: rgb(55, 0, 128);
+  color: white;
+  border-radius: 10px;
+  width: 500px;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(48, 48, 48);
+  color: white;
 }
